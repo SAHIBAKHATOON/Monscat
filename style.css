@@ -24,34 +24,32 @@ body{
  }
 .logo{
     margin-top: -175px;
-    margin-left: 90px;
+    margin-left: 100px;
     position: fixed;
 }
 .logo img{
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
 }
  .togglemenu{
     float: right;
-     margin-top: -520px; 
+     margin-top: -560px; 
     position: relative;
     left: 90%;
     position: fixed;
  }
 .togglemenu ul li{
     color: white;
-     margin-top: 20px; 
+     margin-top: 20px;
      display: flex;
 }
 .togglemenu ul li i{
-    font-size: 18px;
+    font-size: 20px;
+    margin-bottom: 5px; 
 }
 .bar i{
     color: #fff;
     margin-top: -70px;
-}
-.togglemenu i{
-    font-size: 15px;
 }
   .parentone{
     max-width: 1500px;
@@ -65,8 +63,8 @@ body{
     color: #fff;
     transform: rotate(-90deg);
     position: absolute;
-    top: 65%;
-    margin-left: 50px;
+    top: 68%;
+    margin-left: 80px;
     font-size: 20px;
 }
 .same p span{
@@ -77,12 +75,12 @@ body{
     margin-top: 200px;
 }
 .name{
-    width: 400px;
-    height: 400px;
-     margin-top: 30px; 
+    width: 450px;
+    height: 450px;
+     margin-top: 60px; 
      display: flex;
      position: relative;
-     left: 20%;
+     left: 23%;
      background-image:  url(./monster.webp);
      background-repeat: no-repeat;
      background-size: cover;
@@ -93,6 +91,7 @@ body{
     margin-top: 160px;
     width: 200px;
     margin: 0px auto;
+    letter-spacing: 1px;
     font-size: 25px;
     position: absolute;
     left: 110%;
@@ -125,7 +124,7 @@ body{
     background-color: #50A584;
     text-align: center;
     color: #fff;
-    margin-top: 270px;
+    margin-top: 290px;
     font-size: 15px;
     font-weight: bold;
     position: absolute;
@@ -143,13 +142,13 @@ body{
 }
 .btn2{
     height: 42px;
-    width: 130px;
+    width: 150px;
     padding-top: 11px;
     border: 1px solid #fff;
     text-align: center;
     color: #fff;
-    margin-top: 270px;
-    margin-left: 30px;
+    margin-top: 290px;
+    margin-left: 10px;
     font-size: 15px;
     font-weight: bold;
     position: absolute;
@@ -261,11 +260,11 @@ max-width: 60px;
     max-width: 560px;
 }
 .one{
-    max-width: 1000px;
+    min-width: 1000px;
 display: inline-block;
 justify-content: space-between;
 position: relative;
-left: 22.4%;
+left: 23%;
 font-size: 20px;
 color: #fff;
 }
@@ -563,7 +562,7 @@ margin-left: 170px;
 }
 .parentsix{
     max-width: 350px;
-    overflow: auto;
+    overflow: hidden;
 }
 .text2{
     max-width: 300px;
@@ -572,7 +571,7 @@ margin-left: 170px;
     margin-top: -10px;
 }
 .one{
-    width: 370px;
+    min-width: 370px;
     font-size: 16px;
     font-weight: bold;
     margin-left: -80px;
@@ -635,10 +634,11 @@ nav i{
     max-width: 350px;
     overflow: auto;
 }
- 
+input{
+margin-bottom: 10px;
+}
 .icons1 ul li{
-    margin-left: 20px;
-    
+    margin-left: 20px; 
 }
 .icons1 ul li i{
     max-width: 300px;
